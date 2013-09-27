@@ -72,12 +72,12 @@
    [calc_view_controller press:[calc_view viewWithTag:13]];  // +
    [calc_view_controller press:[calc_view viewWithTag: 2]];  // 2
    [calc_view_controller press:[calc_view viewWithTag:12]];  // =   
-   STAssertTrue([[calc_view_controller.displayField text] isEqualToString:@"9"], @"Part 1 failed.");
+   STAssertTrue([[calc_view_controller.displayField text] isEqualToString:@"8"], @"Part 1 failed.");
    
    [calc_view_controller press:[calc_view viewWithTag:13]];  // +
    [calc_view_controller press:[calc_view viewWithTag: 2]];  // 2
    [calc_view_controller press:[calc_view viewWithTag:12]];  // =      
-   STAssertTrue([[calc_view_controller.displayField text] isEqualToString:@"11"], @"Part 2 failed.");
+   STAssertTrue([[calc_view_controller.displayField text] isEqualToString:@"10"], @"Part 2 failed.");
 }
 
 /* testSubtraction performs a simple subtraction test.
