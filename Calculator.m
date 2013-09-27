@@ -82,7 +82,6 @@ const NSString *Clear     = @"C";
 - (void) input:(NSString *) input_character {
    static BOOL last_character_is_operator = NO;
    BOOL bad_character;
-   
    // Does input_character contain exactly one character?
    if (!(bad_character = !(input_character && [input_character length] == 1))) {
       
