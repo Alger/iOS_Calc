@@ -50,9 +50,7 @@
 		1719A1A313D67237004919FD /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
 		1719A23913D6763E004919FD /* libCalculator-iOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libCalculator-iOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1719A23D13D6763E004919FD /* Calculator-iOS-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Calculator-iOS-Prefix.pch"; sourceTree = "<group>"; };
-		1719A25013D6763F004919FD /* Calculator-iOS_LogicTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Calculator-iOS_LogicTests-Info.plist"; sourceTree = "<group>"; };
 		1785896B13D662D800B74C20 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		178EC43F14749FA900AD90CD /* CalculatorLogicTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CalculatorLogicTests.m; path = ../../Shared/CalculatorLogicTests.m; sourceTree = "<group>"; };
 		17AA83B20F997E7D00167681 /* iOS_CalcAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = iOS_CalcAppDelegate.h; path = iOS_Calc/iOS_CalcAppDelegate.h; sourceTree = "<group>"; };
 		17AA83B30F997E7D00167681 /* iOS_CalcAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = iOS_CalcAppDelegate.m; path = iOS_Calc/iOS_CalcAppDelegate.m; sourceTree = "<group>"; };
 		17AA83B60F997E7D00167681 /* iOS_CalcViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = iOS_CalcViewController.h; path = iOS_Calc/iOS_CalcViewController.h; sourceTree = "<group>"; };
@@ -130,23 +128,6 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		1719A24E13D6763F004919FD /* Calculator-iOS_LogicTests */ = {
-			isa = PBXGroup;
-			children = (
-				178EC43F14749FA900AD90CD /* CalculatorLogicTests.m */,
-				1719A24F13D6763F004919FD /* Supporting Files */,
-			);
-			path = "Calculator-iOS_LogicTests";
-			sourceTree = "<group>";
-		};
-		1719A24F13D6763F004919FD /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				1719A25013D6763F004919FD /* Calculator-iOS_LogicTests-Info.plist */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
 		1785897013D6656500B74C20 /* iOS_Calc */ = {
 			isa = PBXGroup;
 			children = (
@@ -165,6 +146,7 @@
 		1785897113D6658200B74C20 /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				6A266B1917F5615E00A9D8DB /* Default-568h@2x.png */,
 				7E3705D011CAC3FF00F5DB11 /* Icon-Small.png */,
 				7E3705D111CAC3FF00F5DB11 /* Icon-Small@2x.png */,
 				7E3705D211CAC3FF00F5DB11 /* Icon.png */,
@@ -216,11 +198,9 @@
 		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
 			isa = PBXGroup;
 			children = (
-				6A266B1917F5615E00A9D8DB /* Default-568h@2x.png */,
 				1785897013D6656500B74C20 /* iOS_Calc */,
 				17B57ABC13D901CE0096B889 /* iOS_Calc_ApplicationTests */,
 				1719A23B13D6763E004919FD /* Calculator-iOS */,
-				1719A24E13D6763F004919FD /* Calculator-iOS_LogicTests */,
 				29B97323FDCFA39411CA2CEA /* Frameworks */,
 				19C28FACFE9D520D11CA2CBB /* Products */,
 			);
