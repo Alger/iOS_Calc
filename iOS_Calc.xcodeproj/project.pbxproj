@@ -501,6 +501,7 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: TeleNav, Inc.";
 				COPY_PHASE_STRIP = NO;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
@@ -509,6 +510,7 @@
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				INFOPLIST_FILE = "iOS_Calc/iOS_Calc-Info.plist";
 				PRODUCT_NAME = Calc;
+				PROVISIONING_PROFILE = "30DBF36C-88F8-40D5-A0F5-87F406FA7DF9";
 			};
 			name = Debug;
 		};
@@ -517,12 +519,14 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: TeleNav, Inc.";
 				COPY_PHASE_STRIP = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = iOS_Calc/iOS_Calc_Prefix.pch;
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				INFOPLIST_FILE = "iOS_Calc/iOS_Calc-Info.plist";
 				PRODUCT_NAME = Calc;
+				PROVISIONING_PROFILE = "30DBF36C-88F8-40D5-A0F5-87F406FA7DF9";
 			};
 			name = Release;
 		};
