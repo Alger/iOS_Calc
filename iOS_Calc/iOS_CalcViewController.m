@@ -67,6 +67,8 @@
 - (IBAction) press:(id)sender {
    [calculator input:[sender titleForState:UIControlStateNormal]];
    [displayField setText:[calculator displayValue]];
+    
+    NSString *warningCode = @"";
 }
 
 @end
