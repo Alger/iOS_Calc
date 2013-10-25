@@ -68,7 +68,6 @@
    [calculator input:[sender titleForState:UIControlStateNormal]];
    [displayField setText:[calculator displayValue]];
     
-    NSString *warningCode = @"";
 }
 
 @end
