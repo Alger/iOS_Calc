@@ -45,7 +45,7 @@
  
 */
 
-#import <SenTestingKit/SenTestingKit.h>
+#import <XCTest/XCTest.h>
 
 #import <UIKit/UIKit.h>
 
@@ -54,7 +54,7 @@
 #import "iOS_CalcViewController.h"
 
 
-@interface iOS_CalcTests : SenTestCase {
+@interface iOS_CalcTests : XCTestCase {
 @private
    CalcAppDelegate    *app_delegate;
    CalcViewController *calc_view_controller;

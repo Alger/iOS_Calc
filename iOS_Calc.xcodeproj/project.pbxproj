@@ -19,7 +19,6 @@
 		1785896C13D662D800B74C20 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1785896B13D662D800B74C20 /* Foundation.framework */; };
 		17AA83B80F997E7D00167681 /* iOS_CalcAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 17AA83B30F997E7D00167681 /* iOS_CalcAppDelegate.m */; };
 		17AA83BA0F997E7D00167681 /* iOS_CalcViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 17AA83B70F997E7D00167681 /* iOS_CalcViewController.m */; };
-		17B57AB813D901CE0096B889 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1719A1A313D67237004919FD /* SenTestingKit.framework */; };
 		17B57AB913D901CE0096B889 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
 		17B57ABA13D901CE0096B889 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1785896B13D662D800B74C20 /* Foundation.framework */; };
 		17B57ABB13D901CE0096B889 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765FC0DF74451002DB57D /* CoreGraphics.framework */; };
@@ -47,7 +46,6 @@
 /* Begin PBXFileReference section */
 		1717F92313CEC1DC0028B74D /* CalcView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = CalcView.xib; path = iOS_Calc/CalcView.xib; sourceTree = SOURCE_ROOT; };
 		1717F92513CEC1EA0028B74D /* MainWindow.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = MainWindow.xib; path = iOS_Calc/MainWindow.xib; sourceTree = SOURCE_ROOT; };
-		1719A1A313D67237004919FD /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
 		1719A23913D6763E004919FD /* libCalculator-iOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libCalculator-iOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1719A23D13D6763E004919FD /* Calculator-iOS-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Calculator-iOS-Prefix.pch"; sourceTree = "<group>"; };
 		1785896B13D662D800B74C20 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -89,7 +87,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				17B57AB813D901CE0096B889 /* SenTestingKit.framework in Frameworks */,
 				17B57AB913D901CE0096B889 /* UIKit.framework in Frameworks */,
 				17B57ABA13D901CE0096B889 /* Foundation.framework in Frameworks */,
 				17B57ABB13D901CE0096B889 /* CoreGraphics.framework in Frameworks */,
@@ -213,7 +210,6 @@
 				1785896B13D662D800B74C20 /* Foundation.framework */,
 				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
 				288765FC0DF74451002DB57D /* CoreGraphics.framework */,
-				1719A1A313D67237004919FD /* SenTestingKit.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -266,7 +262,7 @@
 			name = iOS_Calc_ApplicationTests;
 			productName = iOS_CalcTests;
 			productReference = 17B57AB713D901CE0096B889 /* iOS_Calc_ApplicationTests.octest */;
-			productType = "com.apple.product-type.bundle.ocunit-test";
+			productType = "com.apple.product-type.bundle.unit-test";
 		};
 		1D6058900D05DD3D006BFB54 /* iOS_Calc */ = {
 			isa = PBXNativeTarget;
@@ -291,6 +287,7 @@
 		29B97313FDCFA39411CA2CEA /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastTestingUpgradeCheck = 0600;
 				LastUpgradeCheck = 0500;
 			};
 			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "iOS_Calc" */;
@@ -401,6 +398,7 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: TeleNav, Inc.";
 				COPY_PHASE_STRIP = NO;
 				DSTROOT = /tmp/Calculator_iOS.dst;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -418,6 +416,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "699E66A7-8AA1-475C-BFC4-FE55125D592A";
 				SKIP_INSTALL = YES;
 			};
 			name = Debug;
@@ -427,6 +426,7 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: TeleNav, Inc.";
 				COPY_PHASE_STRIP = YES;
 				DSTROOT = /tmp/Calculator_iOS.dst;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -437,6 +437,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "699E66A7-8AA1-475C-BFC4-FE55125D592A";
 				SKIP_INSTALL = YES;
 				VALIDATE_PRODUCT = YES;
 			};
@@ -448,12 +449,12 @@
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Calc.app/Calc";
 				CLANG_ENABLE_OBJC_ARC = YES;
-				CODE_SIGN_IDENTITY = "iPhone Developer: CarrierMobile Telenav (82GHWB42J8)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: CarrierMobile Telenav (82GHWB42J8)";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: TeleNav, Inc.";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: TeleNav, Inc.";
 				COPY_PHASE_STRIP = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+					"$(inherited)",
 				);
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
@@ -469,9 +470,8 @@
 				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
 				INFOPLIST_FILE = "iOS_Calc_ApplicationTests/iOS_Calc_ApplicationTests-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "1090A5C7-D5C8-42FD-A456-7E8717AD9FA4";
+				PROVISIONING_PROFILE = "699E66A7-8AA1-475C-BFC4-FE55125D592A";
 				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = octest;
 			};
 			name = Debug;
 		};
@@ -481,12 +481,12 @@
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Calc.app/Calc";
 				CLANG_ENABLE_OBJC_ARC = YES;
-				CODE_SIGN_IDENTITY = "iPhone Developer: CarrierMobile Telenav (82GHWB42J8)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: CarrierMobile Telenav (82GHWB42J8)";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: TeleNav, Inc.";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: TeleNav, Inc.";
 				COPY_PHASE_STRIP = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+					"$(inherited)",
 				);
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -495,10 +495,9 @@
 				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
 				INFOPLIST_FILE = "iOS_Calc_ApplicationTests/iOS_Calc_ApplicationTests-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "1090A5C7-D5C8-42FD-A456-7E8717AD9FA4";
+				PROVISIONING_PROFILE = "699E66A7-8AA1-475C-BFC4-FE55125D592A";
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				VALIDATE_PRODUCT = YES;
-				WRAPPER_EXTENSION = octest;
 			};
 			name = Release;
 		};
