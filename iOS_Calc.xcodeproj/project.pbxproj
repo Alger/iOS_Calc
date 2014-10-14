@@ -266,7 +266,7 @@
 			name = iOS_Calc_ApplicationTests;
 			productName = iOS_CalcTests;
 			productReference = 17B57AB713D901CE0096B889 /* iOS_Calc_ApplicationTests.octest */;
-			productType = "com.apple.product-type.bundle";
+			productType = "com.apple.product-type.bundle.ocunit-test";
 		};
 		1D6058900D05DD3D006BFB54 /* iOS_Calc */ = {
 			isa = PBXNativeTarget;
@@ -508,7 +508,7 @@
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
-				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: TeleNav, Inc.";
 				COPY_PHASE_STRIP = NO;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
@@ -525,7 +525,7 @@
 				GCC_WARN_UNUSED_PARAMETER = NO;
 				INFOPLIST_FILE = "iOS_Calc/iOS_Calc-Info.plist";
 				PRODUCT_NAME = Calc;
-				PROVISIONING_PROFILE = "1090A5C7-D5C8-42FD-A456-7E8717AD9FA4";
+				PROVISIONING_PROFILE = "699E66A7-8AA1-475C-BFC4-FE55125D592A";
 			};
 			name = Debug;
 		};
@@ -535,7 +535,7 @@
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
-				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: TeleNav, Inc.";
 				COPY_PHASE_STRIP = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = iOS_Calc/iOS_Calc_Prefix.pch;
@@ -550,7 +550,7 @@
 				GCC_WARN_UNUSED_PARAMETER = NO;
 				INFOPLIST_FILE = "iOS_Calc/iOS_Calc-Info.plist";
 				PRODUCT_NAME = Calc;
-				PROVISIONING_PROFILE = "1090A5C7-D5C8-42FD-A456-7E8717AD9FA4";
+				PROVISIONING_PROFILE = "699E66A7-8AA1-475C-BFC4-FE55125D592A";
 			};
 			name = Release;
 		};
