@@ -54,7 +54,7 @@
 		17AA83B60F997E7D00167681 /* iOS_CalcViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = iOS_CalcViewController.h; path = iOS_Calc/iOS_CalcViewController.h; sourceTree = "<group>"; };
 		17AA83B70F997E7D00167681 /* iOS_CalcViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = iOS_CalcViewController.m; path = iOS_Calc/iOS_CalcViewController.m; sourceTree = "<group>"; };
 		17B1AFC613CEBBE20037B1C8 /* iOS_Calc-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "iOS_Calc-Info.plist"; path = "iOS_Calc/iOS_Calc-Info.plist"; sourceTree = "<group>"; };
-		17B57AB713D901CE0096B889 /* iOS_Calc_ApplicationTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iOS_Calc_ApplicationTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		17B57AB713D901CE0096B889 /* iOS_Calc_ApplicationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iOS_Calc_ApplicationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		17B57ABE13D901CE0096B889 /* iOS_Calc_ApplicationTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iOS_Calc_ApplicationTests-Info.plist"; sourceTree = "<group>"; };
 		17B57AC613D901CE0096B889 /* iOS_Calc_ApplicationTests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "iOS_Calc_ApplicationTests-Prefix.pch"; sourceTree = "<group>"; };
 		17B57ACA13D903090096B889 /* iOS_CalcTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iOS_CalcTests.h; sourceTree = "<group>"; };
@@ -187,7 +187,7 @@
 			children = (
 				EB04C5E0125BD27400D4F4F6 /* Calc.app */,
 				1719A23913D6763E004919FD /* libCalculator-iOS.a */,
-				17B57AB713D901CE0096B889 /* iOS_Calc_ApplicationTests.octest */,
+				17B57AB713D901CE0096B889 /* iOS_Calc_ApplicationTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -261,7 +261,7 @@
 			);
 			name = iOS_Calc_ApplicationTests;
 			productName = iOS_CalcTests;
-			productReference = 17B57AB713D901CE0096B889 /* iOS_Calc_ApplicationTests.octest */;
+			productReference = 17B57AB713D901CE0096B889 /* iOS_Calc_ApplicationTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 		1D6058900D05DD3D006BFB54 /* iOS_Calc */ = {
