@@ -10,29 +10,29 @@
 	<string>iOS_Calc</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
-		<key>6B4954C3-352E-4975-AB29-A40F02564D01</key>
+		<key>F99CCFFD72C00619E2C741B7EB411A4961F0020E</key>
 		<string>https://github.com/Alger/iOS_Calc.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
 	<string>iOS_Calc.xcodeproj/project.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
-		<key>6B4954C3-352E-4975-AB29-A40F02564D01</key>
+		<key>F99CCFFD72C00619E2C741B7EB411A4961F0020E</key>
 		<string>../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
 	<string>https://github.com/Alger/iOS_Calc.git</string>
 	<key>IDESourceControlProjectVersion</key>
-	<integer>110</integer>
+	<integer>111</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>6B4954C3-352E-4975-AB29-A40F02564D01</string>
+	<string>F99CCFFD72C00619E2C741B7EB411A4961F0020E</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>6B4954C3-352E-4975-AB29-A40F02564D01</string>
+			<string>F99CCFFD72C00619E2C741B7EB411A4961F0020E</string>
 			<key>IDESourceControlWCCName</key>
 			<string>iOS_Calc</string>
 		</dict>
